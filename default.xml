@@ -295,7 +295,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="TestMT6572los14/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
@@ -304,7 +304,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="TestMT6572los14/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -464,7 +464,7 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/core" name="TestMT6572los14/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
@@ -494,6 +494,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
+
+  <project path="device/Explay/JoyTV" name="TestMT6572los14/android_device_Explay_JoyTV" revision="cm-14.1" />
+  <project path="vendor/Explay/JoyTV" name="TestMT6572los14/android_vendor_Explay_JoyTV" revision="cm-14.1" />
 
   <include name="snippets/cm-14.0.xml" />
 
